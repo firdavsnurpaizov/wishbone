@@ -1,0 +1,30 @@
+.section_7 {
+    background-image: url('./../assets/images/section7.jpg');
+    background-size: cover;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+.staircase {
+    max-width: 285px;
+    margin-left: 181px;
+}
+
+.staircase h4 {
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+@media screen and (max-width: 769px) {
+    .staircase {
+        margin-left: 0;
+    }
+    .section_7 {
+        justify-content: center;
+        padding: 30px 30px;
+    }
+}

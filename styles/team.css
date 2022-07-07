@@ -1,0 +1,78 @@
+.team_wrapper {
+    display: flex;
+    gap: 1em;
+    padding: 99px 0 155px 16px;
+}
+
+.team_meet {
+    flex: 1 1 35%;
+    padding-right: 25px;
+}
+
+.team_meet h2 {
+    font-size: 32px;
+    line-height: 38px;
+    margin-bottom: 14px;
+}
+
+.team_meet p {
+    font-size: 15px;
+    line-height: 24px;
+    margin-bottom: 29px;
+}
+
+.team_btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #000000;
+    border-radius: 14px;
+    background-color: transparent;
+    width: 155px;
+    height: 46px;
+}
+
+.team_btn:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+.team_btn span {
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.6px;
+}
+
+.team_members {
+    flex: 1 1 65%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 44px;
+    /* width: 773px; */
+}
+
+.team_item {
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    min-width: 280px;
+    gap: 30px;
+}
+
+@media screen and (max-width: 992px) {
+    .team_wrapper {
+        padding: 30px;
+    }
+
+    .team_members {
+        justify-content: center;
+        gap: 16px;
+    }
+}
+
+@media screen and (max-width: 769px) {
+    .team_wrapper {
+        flex-direction: column;
+    }
+}

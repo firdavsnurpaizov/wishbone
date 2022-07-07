@@ -1,0 +1,31 @@
+.section_5 {
+    background-image: url("./../assets/images/section5.png");
+    background-size: cover;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.marble {
+    max-width: 285px;
+    margin-right: 75px;
+}
+
+.marble h4 {
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    /* margin-top: 15px; */
+}
+
+@media screen and (max-width: 769px) {
+    .marble {
+        margin-right: 0;
+    }
+    .section_5 {
+        justify-content: center;
+        padding: 30px 30px;
+    }
+}

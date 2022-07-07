@@ -1,0 +1,67 @@
+.contact {
+    background-color: #CEC4BC;
+}
+
+.contact_wrapper {
+    padding: 105px 30px 104px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contact_question {
+    max-width: 576px;
+}
+
+.contact_question h3 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.contact_question p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: clamp(16px, 2vw, 40px);
+    line-height: clamp(18px, 4vw, 42px);
+}
+
+.contact_btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #000;
+    border-radius: 14px;
+    background-color: transparent;
+    width: 155px;
+    height: 46px;
+    flex-shrink: 0;
+}
+
+.contact_btn:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+.contact_btn span {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.4px;
+}
+
+
+@media screen and (max-width: 992px) {
+    .contact_wrapper {
+        padding: 30px;
+    }
+
+}

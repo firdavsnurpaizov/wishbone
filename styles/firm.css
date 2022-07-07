@@ -1,0 +1,41 @@
+.firm {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 97px 226px 128px 216px;
+}
+
+.firm_title {
+    font-size: clamp(25px, 4vw, 32px);
+    line-height: 38px;
+    flex: 1 1 34%;
+    align-self: start;
+    margin-right: 11px;
+}
+
+.firm_description {
+    flex: 1 1 65%;
+}
+
+.firm_partner {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.firm_partner__name {
+    font-size: 17px;
+    line-height: 21px;
+}
+
+.firm_partner__nested {
+    font-size: 14px;
+    line-height: 14px;
+}
+
+@media screen and (max-width: 992px) {
+    .firm {
+        flex-direction: column;
+        padding: 30px 30px;
+    }
+}

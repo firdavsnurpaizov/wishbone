@@ -1,0 +1,37 @@
+@import "./styles/header.css";
+@import "./styles/intro.css";
+@import "./styles/firm.css";
+@import "./styles/reeding.css";
+@import "./styles/process.css";
+@import "./styles/marble.css";
+@import "./styles/customers.css";
+@import "./styles/staircase.css";
+@import "./styles/featured.css";
+@import "./styles/team.css";
+@import "./styles/contact.css";
+@import "./styles/footer.css";
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+
+

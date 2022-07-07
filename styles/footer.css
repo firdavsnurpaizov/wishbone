@@ -1,0 +1,50 @@
+.footer_wrapper {
+    padding: 60px 0 60px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer_copyrite {
+    margin-left: 16px;
+}
+
+.footer_copyrite object {
+    margin-bottom: 17px;
+}
+
+.footer_copyrite p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #000000;
+}
+
+.footer_logo {
+    display: flex;
+    gap: 20px;
+    align-self: end;
+    margin-right: 16px;
+}
+
+@media screen and (max-width: 992px) {
+    .footer_wrapper {
+        padding: 30px;
+        align-items: start;
+        gap: 16px;
+    }
+    .footer_copyrite {
+        margin-left: 0;
+    }
+}
+
+@media screen and (max-width: 769px) {
+    .footer_wrapper {
+        flex-direction: column;
+    }
+    .footer_logo {
+        align-self: start;
+    }
+}

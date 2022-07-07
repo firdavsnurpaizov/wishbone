@@ -1,11 +1,15 @@
 .team_wrapper {
     display: flex;
     gap: 1em;
-    padding: 99px 0 155px 16px;
+    padding: 99px 0 130px 16px;
 }
 
 .team_meet {
-    flex: 1 1 35%;
+    display: flex;
+    flex-direction: column;
+    /* align-items: start;
+    justify-content: flex-start; */
+    max-width: 378px;
     padding-right: 25px;
 }
 
@@ -13,12 +17,13 @@
     font-size: 32px;
     line-height: 38px;
     margin-bottom: 14px;
+    margin-top: -3px;
 }
 
 .team_meet p {
     font-size: 15px;
     line-height: 24px;
-    margin-bottom: 29px;
+    margin-bottom: 30px;
 }
 
 .team_btn {
@@ -38,26 +43,49 @@
 }
 
 .team_btn span {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
     font-size: 16px;
     line-height: 24px;
-    letter-spacing: 0.6px;
+    letter-spacing: 0.4px;
 }
 
 .team_members {
-    flex: 1 1 65%;
+    /* flex: 1 1 65%; */
+    max-width: 773px;
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     flex-wrap: wrap;
-    gap: 44px;
+    gap: 51px;
+    margin-top: 9px;
     /* width: 773px; */
 }
 
 .team_item {
     display: flex;
     justify-self: center;
-    align-items: center;
-    min-width: 280px;
+    /* align-items: center; */
+    width: 345px;
     gap: 30px;
+}
+
+.team_item__name {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    margin-top: 23px;
+    line-height: 26px;
+}
+
+.team_item__post {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    margin-top: -3px;
+    font-size: 14px;
+    line-height: 14px;
 }
 
 @media screen and (max-width: 992px) {
@@ -66,7 +94,7 @@
     }
 
     .team_members {
-        justify-content: center;
+        justify-content: start;
         gap: 16px;
     }
 }

@@ -2,9 +2,12 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 20px 22px 27px;
+    padding: 23px 20px 24px 27px;
 }
 
+.header_logo {
+    margin-top: 11px;
+}
 
 .header_menu ul {
     display: flex;
@@ -23,9 +26,20 @@
 }
 
 .header_menu__item:last-child {
-    padding: 11px 24px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.4px;
+    width: 155px;
+    height: 46px;
+    flex-shrink: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     border: 1px solid #000;
-    border-radius: 15px;
+    border-radius: 14px;
 }
 
 .header_menu__item:last-child:hover {
@@ -41,7 +55,8 @@
     .header_menu ul {
         flex-direction: column;
         gap: 15px;
-    }  
+    }
+
     .header_menu__item+.header_menu__item {
         margin-left: 0;
     }

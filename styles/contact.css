@@ -3,13 +3,15 @@
 }
 
 .contact_wrapper {
-    padding: 105px 30px 104px 30px;
+    padding: 98px 16px 116px 16px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
 .contact_question {
+    display: flex;
+    flex-direction: column;
     max-width: 576px;
 }
 
@@ -21,13 +23,16 @@
     line-height: 20px;
     letter-spacing: 2px;
     text-transform: uppercase;
+    margin-top: 3px;
 }
 
 .contact_question p {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
-    font-size: clamp(16px, 2vw, 40px);
+    font-size: clamp(16px, 4vw, 40px);
+    /* font-size: 40px; */
+    margin-top: -7px;
     line-height: clamp(18px, 4vw, 42px);
 }
 
@@ -41,6 +46,7 @@
     width: 155px;
     height: 46px;
     flex-shrink: 0;
+    margin-top: 19px;
 }
 
 .contact_btn:hover {
@@ -56,12 +62,23 @@
     line-height: 24px;
     text-align: center;
     letter-spacing: 0.4px;
+    margin-top: 1px;
 }
 
 
 @media screen and (max-width: 992px) {
     .contact_wrapper {
         padding: 30px;
+    }
+}
+
+@media screen and (max-width: 769px) {
+    .contact_wrapper {
+        flex-direction: column;
+    }
+
+    .contact_question {
+        /* gap: 16px; */
     }
 
 }

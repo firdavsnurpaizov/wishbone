@@ -17,6 +17,14 @@
     flex: 1 1 65%;
 }
 
+.firm_description p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+
 .firm_partner {
     display: flex;
     align-items: center;
@@ -36,6 +44,15 @@
 @media screen and (max-width: 992px) {
     .firm {
         flex-direction: column;
-        padding: 30px 30px;
+    }
+}
+
+@media screen and (max-width: 769px) {
+    .firm {
+        padding: 16px;
+    }
+    .firm_description {
+        font-size: 14px;
+        line-height: 16px;
     }
 }

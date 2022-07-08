@@ -35,10 +35,9 @@
 
 .intro_content__description h1 {
     font-family: 'Poppins';
-font-style: normal;
-font-weight: 400;
-font-size: 64px;
-/* line-height: 70px; */
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
     font-size: clamp(25px, 4vw, 64px);
     line-height: clamp(26px, 5vw, 70px);
     margin-bottom: 20px;
@@ -97,12 +96,10 @@ font-size: 64px;
     .intro_content__image {
         display: none;
     }
-
     .intro_content__description {
         flex: 1 1 100%;
-        padding: 30px;
+        padding: 16px;
     }
-
     .intro_content__description div {
         padding: 0;
     }

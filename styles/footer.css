@@ -37,6 +37,7 @@
         align-items: start;
         gap: 16px;
     }
+
     .footer_copyrite {
         margin-left: 0;
     }
@@ -46,6 +47,7 @@
     .footer_wrapper {
         flex-direction: column;
     }
+
     .footer_logo {
         align-self: start;
     }

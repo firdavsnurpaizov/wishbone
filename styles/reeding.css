@@ -1,7 +1,6 @@
 .section_3 {
     background-image: url("./../assets/images/section3.png");
     background-size: cover;
-    /* width: 100%; */
     height: 600px;
     display: flex;
     align-items: center;

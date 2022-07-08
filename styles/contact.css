@@ -31,7 +31,6 @@
     font-style: normal;
     font-weight: 400;
     font-size: clamp(16px, 4vw, 40px);
-    /* font-size: 40px; */
     margin-top: -7px;
     line-height: clamp(18px, 4vw, 42px);
 }
@@ -65,20 +64,14 @@
     margin-top: 1px;
 }
 
-
-@media screen and (max-width: 992px) {
-    .contact_wrapper {
-        padding: 30px;
-    }
-}
-
 @media screen and (max-width: 769px) {
     .contact_wrapper {
         flex-direction: column;
+        padding: 16px;
     }
 
     .contact_question {
-        /* gap: 16px; */
+        gap: 16px;
     }
 
 }
